@@ -7,8 +7,12 @@ import People from "./People";
 
 const Stuff = ({ square }) => (
     <>
-        <Header />
-        <Paragraph />
+        <Header>
+            Hey Hey
+        </Header>
+        <Paragraph>
+            
+        </Paragraph>
         {
             square ? <Square /> : null
         }
