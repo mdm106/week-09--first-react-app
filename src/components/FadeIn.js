@@ -8,10 +8,4 @@ const FadeIn = ({ time, children }) => (
 )
 
 
-
-
-
-
-
-
 export default FadeIn;
