@@ -1,9 +1,9 @@
 //import the React library
 import React from "react";
 
-const Paragraph = ({ message }) => (
+const Paragraph = ({ children }) => (
     <>
-        <p>{!message ? "Hello, World" : message}</p>
+        <p>{!children ? "Hello, World" : children}</p>
     </>
 );
 
