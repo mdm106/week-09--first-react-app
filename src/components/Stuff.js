@@ -5,13 +5,19 @@ import Paragraph from "./Paragraph";
 import Square from "./Square";
 import People from "./People";
 
-const Stuff = () => (
+const Stuff = ({ square }) => (
     <>
         <Header />
         <Paragraph />
-        <Square />
+        {
+            square ? <Square /> : null
+        }
         <People />
     </>
 );
+
+Stuff.defaultProps = {
+    square: true
+};
 
 export default Stuff;
