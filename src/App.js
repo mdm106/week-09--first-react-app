@@ -3,6 +3,7 @@ import './App.css';
 import Stuff from './components/Stuff';
 import Basket from './components/Basket';
 import FadeIn from './components/FadeIn';
+import Clicked from './components/Clicked';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             { name: "The Great Milk Shortage by Simon Schama", price: 12.99 },
           ]
         } />
+        <Clicked />
       </FadeIn>
     </>
   );
