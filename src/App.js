@@ -4,6 +4,7 @@ import Stuff from './components/Stuff';
 import Basket from './components/Basket';
 import FadeIn from './components/FadeIn';
 import Clicked from './components/Clicked';
+import ToggleText from './components/ToggleText'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           ]
         } />
         <Clicked />
+        <ToggleText />
       </FadeIn>
     </>
   );
