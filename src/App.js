@@ -6,6 +6,7 @@ import FadeIn from './components/FadeIn';
 import Clicked from './components/Clicked';
 import ToggleText from './components/ToggleText'
 import Counter from './components/Counter'
+import StepCounter from './components/StepCounter'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Clicked />
         <ToggleText />
         <Counter />
+        <StepCounter />
       </FadeIn>
     </>
   );
