@@ -35,8 +35,4 @@ ToggleText.defaultProps = {
     alternate: "World"
 };
 
-
-
-
-
 export default ToggleText;
