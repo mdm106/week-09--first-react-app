@@ -8,6 +8,7 @@ import ToggleText from './components/ToggleText'
 import Counter from './components/Counter'
 import StepCounter from './components/StepCounter'
 import CatchMeIfYouCan from './components/CatchMeIfYouCan';
+import RollCall from './components/RollCall';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Counter />
         <StepCounter />
         <CatchMeIfYouCan />
+        <RollCall />
       </FadeIn>
     </>
   );
