@@ -7,6 +7,7 @@ import Clicked from './components/Clicked';
 import ToggleText from './components/ToggleText'
 import Counter from './components/Counter'
 import StepCounter from './components/StepCounter'
+import CatchMeIfYouCan from './components/CatchMeIfYouCan';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ToggleText />
         <Counter />
         <StepCounter />
+        <CatchMeIfYouCan />
       </FadeIn>
     </>
   );
