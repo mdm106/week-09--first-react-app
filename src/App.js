@@ -9,6 +9,7 @@ import Counter from './components/Counter'
 import StepCounter from './components/StepCounter'
 import CatchMeIfYouCan from './components/CatchMeIfYouCan';
 import RollCall from './components/RollCall';
+import Colours from './components/tricksyState/Colours';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <StepCounter />
         <CatchMeIfYouCan />
         <RollCall />
+        <Colours />
       </FadeIn>
     </>
   );
