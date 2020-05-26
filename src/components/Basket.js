@@ -12,11 +12,13 @@ const Basket = ({ items }) => (
             <th>Price</th> 
         </tr>  
     </thead> 
+    <tbody>
             {items.map((item, index) => (
                 <tr key={ index }>
                     <BasketItem item={item}/>
                 </tr>
             ))}
+    </tbody>
     </table>
     : <p>Nothing on the list</p>
     }
