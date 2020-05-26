@@ -11,12 +11,10 @@ const Stuff = ({ square }) => (
             Hey Hey
         </Header>
         <Paragraph>
-            
+            Hello Hello Hello
         </Paragraph>
-        {
-            square ? <Square /> : null
-        }
-        <People />
+        {square ? <Square /> : null}
+        <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
     </>
 );
 
