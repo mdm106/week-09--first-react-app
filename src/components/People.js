@@ -1,8 +1,7 @@
 import React from "react";
 
 const People = ({ names }) => (
-    <>
-    { names ? 
+    names ? (
         <ul>
             {names.map((name, index) => (
                 <li key= { index }>
@@ -10,9 +9,7 @@ const People = ({ names }) => (
                 </li>
             ))}
         </ul>
-    : <p>Nothing to see here</p>
-    }    
-    </>
+    ) : <p>Nothing to see here</p> 
 );
 
 export default People;
