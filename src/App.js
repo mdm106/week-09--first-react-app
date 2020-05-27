@@ -14,6 +14,7 @@ import Die from './components/tricksyState/Die';
 import Length from './components/formComponents/Length';
 import PasswordStrength from './components/formComponents/PasswordStrength';
 import TempConverter from './components/formComponents/TempConverter';
+import List from './components/formComponents/List';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Length />
         <PasswordStrength />
         <TempConverter />
+        <List />
       </FadeIn>
     </>
   );
