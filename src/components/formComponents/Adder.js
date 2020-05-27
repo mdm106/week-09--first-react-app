@@ -28,13 +28,13 @@ class Adder extends Component {
 
     render() {
         return(
-            <>
+            <>  
                 <input
                     value={ this.state.input }
                     onChange={(e) => this.handleChange(e)}
                     type="number"
                 />
-                <button onClick={(e) => this.handleClick(e)}>
+                <button className="btn-primary" onClick={(e) => this.handleClick(e)}>
                     Add
                 </button>
                 <ul>

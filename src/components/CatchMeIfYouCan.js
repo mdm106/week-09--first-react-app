@@ -20,7 +20,7 @@ class CatchMeIfYouCan extends Component {
 
         return (
             <>
-                <button onClick={this.handleClick} style={{ transform: `translateY(${counter}px)`}}>Button</button>
+                <button className="btn-primary" onClick={this.handleClick} style={{ transform: `translateY(${counter}px)`}}>Jump</button>
             </>
         )
     }

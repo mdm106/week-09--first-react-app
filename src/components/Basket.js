@@ -5,7 +5,7 @@ import BasketItem from "./BasketItem";
 const Basket = ({ items }) => (
     <>
     { items ? 
-    <table>
+    <table className="table table-bordered">
     <thead>
         <tr>
             <th>Name</th>

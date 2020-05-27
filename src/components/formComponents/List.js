@@ -21,14 +21,14 @@ class List extends Component {
 
     render() {
         return(
-            <>
+            <>  
                 <input
                     value={ this.state.input }
                     onChange={(e) => this.handleChange(e)}
                     type="text"
                 />
-                <button onClick={(e) => this.handleClick(e)}>
-                    Button
+                <button className="btn-primary" onClick={(e) => this.handleClick(e)}>
+                    Add Item
                 </button>
                 <ul>
                     {this.state.items.map((item, index) => (

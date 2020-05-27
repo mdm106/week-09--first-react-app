@@ -27,7 +27,8 @@ class PasswordStrength extends Component {
         }
 
         return (
-          <form>
+          <form className="form-group">
+              <label>Password:</label>
               <input
                 value={ this.state.input }
                 onChange={(e) => this.handleChange(e)}

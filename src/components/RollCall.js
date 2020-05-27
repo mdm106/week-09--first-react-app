@@ -25,7 +25,7 @@ class RollCall extends Component {
         return (
             <>  
                 <p>Name: { names[index] }</p>
-                <button onClick={this.handleClick}>Next</button>
+                <button className="btn-primary" onClick={this.handleClick}>Next</button>
             </>
         )
     }

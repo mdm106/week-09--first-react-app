@@ -17,7 +17,7 @@ class Clicked extends Component {
         const { checker } = this.state;
 
         return (
-            <p onClick={this.handleClick}>
+            <p className="shadow" onClick={this.handleClick}>
                 {!checker ? "Not Clicked" : "Clicked"}
             </p>
         );

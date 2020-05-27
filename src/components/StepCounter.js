@@ -28,8 +28,8 @@ class StepCounter extends Component {
         return (
             <>
                 <p>Counter: {counter} </p>
-                <button onClick={this.handleClickPlus}>+</button>
-                <button onClick={this.handleClickMinus}>-</button>
+                <button className="btn-success" onClick={this.handleClickPlus}>+</button>
+                <button className="btn-danger" onClick={this.handleClickMinus}>-</button>
             </>
         )
     }

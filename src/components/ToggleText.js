@@ -22,7 +22,7 @@ class ToggleText extends Component {
                 <p>
                     {toggle ? initial : alternate}
                 </p>
-                <button onClick={this.handleClick}>
+                <button className="btn-primary" onClick={this.handleClick}>
                     Toggle
                 </button>
             </>

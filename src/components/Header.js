@@ -6,7 +6,9 @@ class Header extends Component {
         let { children } = this.props;
 
         return (
-            <h1>{ children } </h1>
+            <header>
+                <h1>{ children } </h1>
+            </header>
         );
     }
 }

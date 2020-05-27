@@ -33,7 +33,7 @@ class TempConverter extends Component {
     render() {
 
         return (
-          <form>
+          <form className="form-group">
               <label>Fahrenheit:</label>
               <input
                 value={ this.state.fahrenheit }
