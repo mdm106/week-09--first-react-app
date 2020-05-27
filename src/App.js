@@ -11,6 +11,7 @@ import CatchMeIfYouCan from './components/CatchMeIfYouCan';
 import RollCall from './components/RollCall';
 import Colours from './components/tricksyState/Colours';
 import Die from './components/tricksyState/Die';
+import Length from './components/formComponents/Length';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <RollCall />
         <Colours />
         <Die />
+        <Length />
       </FadeIn>
     </>
   );
