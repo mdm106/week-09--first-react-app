@@ -15,6 +15,7 @@ import Length from './components/formComponents/Length';
 import PasswordStrength from './components/formComponents/PasswordStrength';
 import TempConverter from './components/formComponents/TempConverter';
 import List from './components/formComponents/List';
+import Adder from './components/formComponents/Adder';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <PasswordStrength />
         <TempConverter />
         <List />
+        <Adder />
       </FadeIn>
     </>
   );
