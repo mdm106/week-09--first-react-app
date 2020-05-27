@@ -13,6 +13,9 @@ class RollCall extends Component {
         let currentIndex = this.state.index;
 
         this.setState({ index: currentIndex < this.props.names.length - 1 ? currentIndex + 1 : 0});
+        // this.setState({
+        //     index: (this.state.index + 1) % names.length,
+        // }); //
     }
 
     render() {
