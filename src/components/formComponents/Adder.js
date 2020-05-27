@@ -4,7 +4,7 @@ class Adder extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { input: "", numbers: [], total: 0 }
+        this.state = { input: 0, numbers: [] }
         
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -17,9 +17,9 @@ class Adder extends Component {
 
     handleClick(e) {
         this.setState({ 
-            input: "", 
+            input: 0, 
             numbers: [...this.state.numbers, this.state.input],
-            total: this.state.total + parseFloat(this.state.input)
+            total: this.state.numbers.reduce((total, val) => parseFloat(total) + parseFloat(val), this.state.input),
         });
     }
 
