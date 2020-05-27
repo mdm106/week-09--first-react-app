@@ -13,6 +13,7 @@ import Colours from './components/tricksyState/Colours';
 import Die from './components/tricksyState/Die';
 import Length from './components/formComponents/Length';
 import PasswordStrength from './components/formComponents/PasswordStrength';
+import TempConverter from './components/formComponents/TempConverter';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Die />
         <Length />
         <PasswordStrength />
+        <TempConverter />
       </FadeIn>
     </>
   );
