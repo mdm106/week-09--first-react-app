@@ -10,7 +10,7 @@ class People extends Component {
         let { names } = this.props;
 
         return (
-            names ? (
+            names.length ? (
                 <ul onClick={ this.handleClick }>
                     {names.map((name, index) => (
                         <li key= { index }>
