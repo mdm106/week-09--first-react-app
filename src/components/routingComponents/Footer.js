@@ -13,6 +13,7 @@ class Footer extends Component {
                 <Link className="nav-link" to='/temperature-converter'>Temperature converter</Link>
                 <Link className="nav-link" to='/people'>People</Link>
                 <Link className="nav-link" to='/transforms'>Transforms</Link>
+                <Link className="nav-link" to='/pre-built'>Pre-built</Link>
             </nav>
         );
     }

@@ -21,6 +21,7 @@ import Footer from './components/routingComponents/Footer';
 import FourOhFour from './components/routingComponents/FourOhFour';
 import Square from './components/Square';
 import StepCounter from './components/StepCounter';
+import PreBuiltStuff from './components/preBuilt/PreBuiltStuff';
 
 function App() {
   let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
@@ -56,6 +57,7 @@ function App() {
           <Route path="/steps/:max/:step" render={ ({ match }) => (
               <StepCounter max={ +match.params.max } step={ +match.params.step } />
           )} />
+          <Route exact path="/pre-built" component= { PreBuiltStuff } />
           <Route component={FourOhFour}/>
         </Switch>
         <Footer />
