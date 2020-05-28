@@ -19,6 +19,7 @@ import TempConverter from './formComponents/TempConverter';
 import List from './formComponents/List';
 import Adder from './formComponents/Adder';
 import Transform from './formComponents/Transform';
+import Progress from "./preBuilt/Progress";
 
 const Stuff = ({ square }) => (
     <>
@@ -52,6 +53,7 @@ const Stuff = ({ square }) => (
         <Transform transform={x => x * x} />
         <Transform transform={x => x + 4} />
         <Transform transform={x => x * 10} />
+        <Progress />
     </>
 );
 
