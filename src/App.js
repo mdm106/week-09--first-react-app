@@ -19,6 +19,7 @@ import People from './components/People';
 import RollCall from './components/RollCall';
 import Footer from './components/routingComponents/Footer';
 import FourOhFour from './components/routingComponents/FourOhFour';
+import Square from './components/Square';
 
 function App() {
   let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
@@ -48,6 +49,9 @@ function App() {
             <Transform transform={x => x + 4} />
             <Transform transform={x => x * 10} />
           </Route>
+          <Route path="/squares/:colour" render={ ({ match }) => (
+              <Square colour={ match.params.colour } />
+          )} />
           <Route component={FourOhFour}/>
         </Switch>
         <Footer />
