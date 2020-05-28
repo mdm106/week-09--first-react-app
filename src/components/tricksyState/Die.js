@@ -16,7 +16,7 @@ class Die extends Component {
     render() {
         const { number } = this.state;
         return (
-            <div onClick={this.handleClick} style={{height: 50, width: 50, fontSize: 30, textAlign: "center", border: "black 2px solid" }}>
+            <div className="mb-4" onClick={this.handleClick} style={{height: 50, width: 50, fontSize: 30, textAlign: "center", border: "black 2px solid" }}>
                 {number}
             </div>
         )
