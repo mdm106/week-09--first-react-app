@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
-class CatchMeIfYouCanTwo extends Component {
+class CatchMeIfYouCanPB extends Component {
     constructor(props) {
         super(props);
 
@@ -33,8 +33,8 @@ class CatchMeIfYouCanTwo extends Component {
     }
 };
 
-CatchMeIfYouCanTwo.defaultProps = {
+CatchMeIfYouCanPB.defaultProps = {
     jump: 100,
 };
 
-export default CatchMeIfYouCanTwo;
+export default CatchMeIfYouCanPB;
