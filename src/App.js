@@ -1,56 +1,47 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
+
 import './App.css';
+
+import Header from './components/Header';
 import Stuff from './components/Stuff';
-import Basket from './components/Basket';
 import FadeIn from './components/FadeIn';
 import Clicked from './components/Clicked';
-import ToggleText from './components/ToggleText'
-import Counter from './components/Counter'
-import StepCounter from './components/StepCounter'
-import CatchMeIfYouCan from './components/CatchMeIfYouCan';
-import RollCall from './components/RollCall';
-import Colours from './components/tricksyState/Colours';
 import Die from './components/tricksyState/Die';
 import LameGame from './components/tricksyState/LameGame';
-import Length from './components/formComponents/Length';
-import PasswordStrength from './components/formComponents/PasswordStrength';
 import TempConverter from './components/formComponents/TempConverter';
-import List from './components/formComponents/List';
-import Adder from './components/formComponents/Adder';
-import Transform from './components/formComponents/Transform';
+import People from './components/People';
+import RollCall from './components/RollCall';
+
 
 
 function App() {
+  let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
   return (
     <>
+    <Router>
       <FadeIn time={"500ms"}>
-        <Stuff />
-        <Basket items={
-          [
-            { name: "Coffee", price: 2.10 },
-            { name: "Bananas", price: 3.50 },
-            { name: "Milk", price: 250.65 },
-            { name: "The Great Milk Shortage by Simon Schama", price: 12.99 },
-          ]
-        } />
-        <Clicked />
-        <ToggleText />
-        <Counter />
-        <StepCounter />
-        <CatchMeIfYouCan />
-        <RollCall />
-        <Colours />
-        <Die />
-        <LameGame aim={5}/>
-        <Length />
-        <PasswordStrength />
-        <TempConverter />
-        <List />
-        <Adder />
-        <Transform transform={x => x * x} />
-        <Transform transform={x => x + 4} />
-        <Transform transform={x => x * 10} />
+        <Header>
+          The Fantastic React App
+        </Header>
+        <Route path="/main-stuff">
+          <Stuff />
+        </Route>
+        <Route exact path="/clicked" component={ Clicked } />
+        <Route exact path="/games">
+          <Die />
+          <LameGame />
+        </Route>
+        <Route exact path="/temperature-converter" component={ TempConverter } />
+        <Route exact path="/people">
+          <People names = {names}/>
+          <RollCall names = {names}/>
+        </Route>
       </FadeIn>
+    </Router>
     </>
   );
 }
