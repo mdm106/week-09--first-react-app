@@ -33,6 +33,7 @@ class Adder extends Component {
                     value={ this.state.input }
                     onChange={(e) => this.handleChange(e)}
                     type="number"
+                    className="mb-1"
                 />
                 <button className="btn-primary" onClick={(e) => this.handleClick(e)}>
                     Add
