@@ -19,12 +19,14 @@ class Transform extends Component {
         const { input } = this.state;
         const { transform } = this.props;
         return(
-            <>
-                <input
-                    onChange={(e) => this.handleChange(e)}
-                    type="number"
-                    value={ this.state.input }
-                />
+            <>  
+                <label>Enter a number to get the answer:
+                    <input
+                        onChange={(e) => this.handleChange(e)}
+                        type="number"
+                        value={ input }
+                    />
+                </label>
                 <p>Answer: { input!=="" ? transform(Number(input)) : "" }</p>
             </>
         )
