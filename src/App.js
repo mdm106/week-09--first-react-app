@@ -11,12 +11,14 @@ import CatchMeIfYouCan from './components/CatchMeIfYouCan';
 import RollCall from './components/RollCall';
 import Colours from './components/tricksyState/Colours';
 import Die from './components/tricksyState/Die';
+import LameGame from './components/tricksyState/LameGame';
 import Length from './components/formComponents/Length';
 import PasswordStrength from './components/formComponents/PasswordStrength';
 import TempConverter from './components/formComponents/TempConverter';
 import List from './components/formComponents/List';
 import Adder from './components/formComponents/Adder';
 import Transform from './components/formComponents/Transform';
+
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
         <RollCall />
         <Colours />
         <Die />
+        <LameGame aim={5}/>
         <Length />
         <PasswordStrength />
         <TempConverter />
