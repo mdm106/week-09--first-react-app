@@ -23,6 +23,7 @@ import Progress from "./preBuilt/Progress";
 import CatchMeIfYouCanPB from './preBuilt/CatchMeIfYouCanPB';
 import PasswordStrengthPB from './preBuilt/PasswordStrengthPB';
 import ListPB from './preBuilt/ListPB';
+import TempConverterPB from './preBuilt/TempConverterPB';
 
 const Stuff = ({ square }) => (
     <>
@@ -60,6 +61,7 @@ const Stuff = ({ square }) => (
         <CatchMeIfYouCanPB />
         <PasswordStrengthPB />
         <ListPB />
+        <TempConverterPB />
     </>
 );
 
