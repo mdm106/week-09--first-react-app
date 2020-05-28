@@ -20,6 +20,7 @@ import List from './formComponents/List';
 import Adder from './formComponents/Adder';
 import Transform from './formComponents/Transform';
 import Progress from "./preBuilt/Progress";
+import CatchMeIfYouCanTwo from './preBuilt/CatchMeIfYouCanTwo';
 
 const Stuff = ({ square }) => (
     <>
@@ -54,6 +55,7 @@ const Stuff = ({ square }) => (
         <Transform transform={x => x + 4} />
         <Transform transform={x => x * 10} />
         <Progress />
+        <CatchMeIfYouCanTwo />
     </>
 );
 
