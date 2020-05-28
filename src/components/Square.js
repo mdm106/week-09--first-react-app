@@ -20,7 +20,7 @@ class Square extends Component {
         const { clicker } = this.state;
 
         return (
-            <div onClick={this.handleClick} style={{ width: 200, height: 200, backgroundColor: clicker ? "green" : colour}}>
+            <div className="mb-4" onClick={this.handleClick} style={{ width: 200, height: 200, backgroundColor: clicker ? "green" : colour}}>
             </div>
         )
     }
