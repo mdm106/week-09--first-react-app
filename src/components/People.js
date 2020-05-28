@@ -11,7 +11,7 @@ class People extends Component {
 
         return (
             names.length ? (
-                <ul className="list-group" onClick={ this.handleClick }>
+                <ul className="list-group mb-4" onClick={ this.handleClick }>
                     {names.map((name, index) => (
                         <li className="list-group-item" key= { index }>
                             { name }
