@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class Footer extends Component {
     render() {
         return (
-            <nav className="nav nav-justified w-100 justify-content-between">
+            <nav className="nav nav-justified w-100 justify-content-between flex-nowrap">
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/all-challenges'>All challenges</Link>
                 <Link className="nav-link" to='/clicked'>Clicked</Link>
