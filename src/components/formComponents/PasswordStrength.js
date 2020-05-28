@@ -28,13 +28,14 @@ class PasswordStrength extends Component {
 
         return (
           <form className="form-group">
-              <label>Password:</label>
+              <label>Password:
               <input
                 value={ this.state.input }
                 onChange={(e) => this.handleChange(e)}
                 type={"password"}
                 style={{backgroundColor: colour}}
               />
+              </label>
           </form>
         )
     }
