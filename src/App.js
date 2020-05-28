@@ -20,6 +20,7 @@ import RollCall from './components/RollCall';
 import Footer from './components/routingComponents/Footer';
 import FourOhFour from './components/routingComponents/FourOhFour';
 import Square from './components/Square';
+import StepCounter from './components/StepCounter';
 
 function App() {
   let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
@@ -51,6 +52,9 @@ function App() {
           </Route>
           <Route path="/squares/:colour" render={ ({ match }) => (
               <Square colour={ match.params.colour } />
+          )} />
+          <Route path="/steps/:max/:step" render={ ({ match }) => (
+              <StepCounter max={ +match.params.max } step={ +match.params.step } />
           )} />
           <Route component={FourOhFour}/>
         </Switch>
