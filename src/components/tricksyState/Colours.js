@@ -20,7 +20,7 @@ class Colours extends Component {
         const { colours } = this.props;
 
         return (
-            <div onClick={this.handleClick} style={{width: 200, height: 200, backgroundColor: colours[index]}}>
+            <div className="mb-4" onClick={this.handleClick} style={{width: 200, height: 200, backgroundColor: colours[index]}}>
             </div>
         )
     }
