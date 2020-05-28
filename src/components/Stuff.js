@@ -22,9 +22,7 @@ import Transform from './formComponents/Transform';
 
 const Stuff = ({ square }) => (
     <>
-        <Header>
-            Hey Hey
-        </Header>
+        <Header />
         <Paragraph>
             Hello Hello Hello
         </Paragraph>
