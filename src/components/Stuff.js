@@ -21,6 +21,7 @@ import Adder from './formComponents/Adder';
 import Transform from './formComponents/Transform';
 import Progress from "./preBuilt/Progress";
 import CatchMeIfYouCanPB from './preBuilt/CatchMeIfYouCanPB';
+import PasswordStrengthPB from './preBuilt/PasswordStrengthPB';
 
 const Stuff = ({ square }) => (
     <>
@@ -56,6 +57,7 @@ const Stuff = ({ square }) => (
         <Transform transform={x => x * 10} />
         <Progress />
         <CatchMeIfYouCanPB />
+        <PasswordStrengthPB />
     </>
 );
 
