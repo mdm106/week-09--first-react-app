@@ -19,7 +19,7 @@ class Length extends Component {
         return (
           <form>
               <input
-                value={ this.state.input }
+                value={ input }
                 onChange={(e) => this.handleChange(e)}
               />
               <p>Input Length: { input.length } </p>
