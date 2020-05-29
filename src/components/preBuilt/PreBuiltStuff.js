@@ -7,6 +7,7 @@ import ListPB from './ListPB';
 import TempConverterPB from './TempConverterPB';
 import Dates from './Dates';
 import Images from './Images';
+import Headline from './Headline';
 
 const PreBuiltStuff = () => (
     <>
@@ -17,6 +18,7 @@ const PreBuiltStuff = () => (
         <TempConverterPB />
         <Dates />
         <Images />
+        <Headline />
     </>
 );
 
