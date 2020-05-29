@@ -26,13 +26,15 @@ import PreBuiltStuff from './components/preBuilt/PreBuiltStuff';
 function App() {
   let names = ["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"];
   return (
-    <>
     <Router>
       <FadeIn time={"500ms"}>
         <Header>
           The Fantastic React App
         </Header>
         <Switch>
+          <Route exact path="/">
+            <Header />
+          </Route>
           <Route path="/all-challenges">
             <Stuff />
           </Route>
@@ -63,7 +65,6 @@ function App() {
         <Footer />
       </FadeIn>
     </Router>
-    </>
   );
 }
 

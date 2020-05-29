@@ -5,6 +5,8 @@ import CatchMeIfYouCanPB from './CatchMeIfYouCanPB';
 import PasswordStrengthPB from './PasswordStrengthPB';
 import ListPB from './ListPB';
 import TempConverterPB from './TempConverterPB';
+import Dates from './Dates';
+import Images from './Images';
 
 const PreBuiltStuff = () => (
     <>
@@ -13,6 +15,8 @@ const PreBuiltStuff = () => (
         <PasswordStrengthPB />
         <ListPB />
         <TempConverterPB />
+        <Dates />
+        <Images />
     </>
 );
 

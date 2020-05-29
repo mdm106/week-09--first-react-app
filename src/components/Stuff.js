@@ -19,50 +19,42 @@ import TempConverter from './formComponents/TempConverter';
 import List from './formComponents/List';
 import Adder from './formComponents/Adder';
 import Transform from './formComponents/Transform';
-import Progress from "./preBuilt/Progress";
-import CatchMeIfYouCanPB from './preBuilt/CatchMeIfYouCanPB';
-import PasswordStrengthPB from './preBuilt/PasswordStrengthPB';
-import ListPB from './preBuilt/ListPB';
-import TempConverterPB from './preBuilt/TempConverterPB';
+import PreBuiltStuff from './preBuilt/PreBuiltStuff';
 
 const Stuff = ({ square }) => (
-    <>
-        <Header />
-        <Paragraph>
-            Hello Hello Hello
-        </Paragraph>
-        {square ? <Square /> : null}
-        <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
-        <Basket items={
-          [
-            { name: "Coffee", price: 2.10 },
-            { name: "Bananas", price: 3.50 },
-            { name: "Milk", price: 250.65 },
-            { name: "The Great Milk Shortage by Simon Schama", price: 12.99 },
-          ]
-        } />
-        <ToggleText />
-        <Counter />
-        <StepCounter />
-        <CatchMeIfYouCan />
-        <RollCall />
-        <Colours />
-        <Die />
-        <LameGame aim={5}/>
-        <Length />
-        <PasswordStrength />
-        <TempConverter />
-        <List />
-        <Adder />
-        <Transform transform={x => x * x} />
-        <Transform transform={x => x + 4} />
-        <Transform transform={x => x * 10} />
-        <Progress />
-        <CatchMeIfYouCanPB />
-        <PasswordStrengthPB />
-        <ListPB />
-        <TempConverterPB />
-    </>
+  <>
+      <Header />
+      <Paragraph>
+          Hello Hello Hello
+      </Paragraph>
+      {square ? <Square /> : null}
+      <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]}/>
+      <Basket items={
+        [
+          { name: "Coffee", price: 2.10 },
+          { name: "Bananas", price: 3.50 },
+          { name: "Milk", price: 250.65 },
+          { name: "The Great Milk Shortage by Simon Schama", price: 12.99 },
+        ]
+      } />
+      <ToggleText />
+      <Counter />
+      <StepCounter />
+      <CatchMeIfYouCan />
+      <RollCall />
+      <Colours />
+      <Die />
+      <LameGame aim={5}/>
+      <Length />
+      <PasswordStrength />
+      <TempConverter />
+      <List />
+      <Adder />
+      <Transform transform={x => x * x} />
+      <Transform transform={x => x + 4} />
+      <Transform transform={x => x * 10} />
+      <PreBuiltStuff />
+  </>
 );
 
 Stuff.defaultProps = {
