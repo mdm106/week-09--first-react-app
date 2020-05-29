@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+//This is the model answer provided and which we went through in a class
+
 class Fields extends Component {
     constructor(props) {
         super(props);
