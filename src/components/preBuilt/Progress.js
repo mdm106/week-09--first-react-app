@@ -27,7 +27,7 @@ class Progress extends Component {
             <ProgressBar now={status} label={`${status}%`}/>
             <Button onClick={ this.handleClick } 
                     variant="primary"
-                    disabled={status >= 100 ? "disabled" : null}>More!</Button>
+                    disabled={status >= 100}>More!</Button>
         </Container>
         );
     }
