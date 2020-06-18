@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/week-09--first-react-app/static/css/main.0a2098c1.chunk.css",
-    "main.js": "/week-09--first-react-app/static/js/main.344d63cc.chunk.js",
-    "main.js.map": "/week-09--first-react-app/static/js/main.344d63cc.chunk.js.map",
+    "main.js": "/week-09--first-react-app/static/js/main.58016a92.chunk.js",
+    "main.js.map": "/week-09--first-react-app/static/js/main.58016a92.chunk.js.map",
     "runtime-main.js": "/week-09--first-react-app/static/js/runtime-main.66966d47.js",
     "runtime-main.js.map": "/week-09--first-react-app/static/js/runtime-main.66966d47.js.map",
     "static/css/2.ecffae5e.chunk.css": "/week-09--first-react-app/static/css/2.ecffae5e.chunk.css",
     "static/js/2.49f67ce3.chunk.js": "/week-09--first-react-app/static/js/2.49f67ce3.chunk.js",
     "static/js/2.49f67ce3.chunk.js.map": "/week-09--first-react-app/static/js/2.49f67ce3.chunk.js.map",
     "index.html": "/week-09--first-react-app/index.html",
-    "precache-manifest.5078a6f1ac0f9b04fbc6c5a096a495ee.js": "/week-09--first-react-app/precache-manifest.5078a6f1ac0f9b04fbc6c5a096a495ee.js",
+    "precache-manifest.7c42c87bcec04e8872832de919a7f531.js": "/week-09--first-react-app/precache-manifest.7c42c87bcec04e8872832de919a7f531.js",
     "service-worker.js": "/week-09--first-react-app/service-worker.js",
     "static/css/2.ecffae5e.chunk.css.map": "/week-09--first-react-app/static/css/2.ecffae5e.chunk.css.map",
     "static/css/main.0a2098c1.chunk.css.map": "/week-09--first-react-app/static/css/main.0a2098c1.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.ecffae5e.chunk.css",
     "static/js/2.49f67ce3.chunk.js",
     "static/css/main.0a2098c1.chunk.css",
-    "static/js/main.344d63cc.chunk.js"
+    "static/js/main.58016a92.chunk.js"
   ]
 }
