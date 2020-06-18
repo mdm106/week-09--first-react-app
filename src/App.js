@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch
 } from "react-router-dom";
@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <FadeIn time={"500ms"}>
-        <Header>
+        <Header className="heading">
           The Fantastic React App
         </Header>
         <Switch>
