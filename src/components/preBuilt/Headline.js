@@ -42,7 +42,7 @@ class Headline extends Component {
 }
 
 Headline.defaultProps = {
-    message: "Dinosaurs!",
+    message: "Cats and Dogs!",
 };
 
 export default Headline;
