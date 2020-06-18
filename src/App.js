@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <FadeIn time={"500ms"}>
-        <Header>
+        <Header className="heading">
           The Fantastic React App
         </Header>
         <Switch>
